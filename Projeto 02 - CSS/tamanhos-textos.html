@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho de Textos</title>
+    <style type="text/css">
+        html {
+            font-size: 60px;
+        }
+
+        body {
+            font-size: 16px;
+        }
+
+        div {
+            font-size: 30px;
+        }
+
+        .texto {
+            /*
+            px --> Tamanho fixo
+            % --> Tamanho relativo
+            em --> Tamanho relativo ao container pai
+            rem --> Tamanho relativo ao container raiz html
+            100% = 16px
+            Se o container pai tem 60px então:
+            1em = 60px
+            1.5em = 90px
+            2em = 120px
+            */
+            /* font-size: 32px; */
+            font-size: 2em;
+        }
+
+        .texto2 {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- Herda o tamanho da div 30 px-->
+        <p>Conteúdo 1</p>
+        <!-- 2em ou 2x o tamanho da div 60 px-->
+        <p class="texto">Conteúdo 2</p>
+        <!-- 1.5rem ou 1.5x o tamanho do html 90 px-->
+        <p class="texto2">Conteúdo 3</p>
+    </div>
+    <!-- 1em ou 1x o tamanho do body 16 px-->
+    <p style="font-size: 1em;">Conteúdo 4</p>
+    <!-- 1.5rem ou 1.5x o tamanho do html 90 px-->
+    <p style="font-size: 1.5rem;">Conteúdo 5</p>
+    <!-- 2em ou 2x o tamanho do body 32 px-->
+    <p style="font-size: 2em;">Conteúdo 6</p>
+
+
+</body>
+
+</html>
