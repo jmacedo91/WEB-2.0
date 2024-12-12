@@ -17,7 +17,6 @@ body {
 
 main {
     background-color: antiquewhite;
-    width: 90rem;
     padding: 3rem 2rem 1rem;
 }
 
@@ -26,7 +25,6 @@ p {
 }
 
 footer {
-    width: 90rem;
     text-align: center;
     font-weight: bold;
     padding: 3rem 2rem 1rem;
@@ -38,7 +36,6 @@ footer {
 
 .navbar {
     background-color: #c5c5b2;
-    width: 90rem;
     padding: 3rem 0;
 }
 
@@ -62,4 +59,28 @@ footer {
     color: #525252c1;
     font-weight: bold;
     margin-bottom: 2rem;
+}
+
+.image-container {
+    display: inline-block;
+    border: 1rem solid #525252c1;
+    margin-bottom: 2rem;    
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.contact-container {
+    padding-bottom: 2rem;
+}
+
+.contact {
+    margin: 0;
+}
+
+.contact-title {
+    font-weight: bold;
 }
