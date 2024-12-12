@@ -11,6 +11,8 @@ html {
 body {
     font: 1.6rem Arial, helvetica, sans-serif;
     background: #d2d2c1 url('images/fundo.png');
+    max-width: 90rem;
+    margin: 0 auto;
 }
 
 main {
