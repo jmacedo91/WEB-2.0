@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 1.6rem Arial, helvetica, sans-serif;
+    background: #d2d2c1 url('images/fundo.png');
+}
+
+main {
+    background-color: antiquewhite;
+    width: 90rem;
+    padding: 3rem 2rem 1rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+footer {
+    width: 90rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 3rem 2rem 1rem;
+}
+
+.image {
+    height: 38.8rem;
+}
+
+.navbar {
+    background-color: #c5c5b2;
+    width: 90rem;
+    padding: 3rem 0;
+}
+
+.navbar-list {
+    display: flex;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkslateblue;
+    margin: 0 2rem
+}
+
+.navbar-list a:hover {
+    color: white;
+    transition: all 300ms ease-in-out;
+}
+
+.title {
+    color: #525252c1;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
