@@ -9,6 +9,12 @@
 
         body {
             background-color: #0E1F53;
+            color: white;
+        }
+
+        .principal {
+            border: 5px solid red;
+            background-color: green;
         }
 
         .conteudo {
@@ -24,27 +30,51 @@
         .conteudo1 {
             background-color: yellow;
             border: 1px solid gray;
-            width: 150px;
-            height: 150px;
+            width: 200px;
+            height: 200px;
             margin: 10px;
-            float: right;
+            float: left;
         }
+
+        .conteudo-zero {
+            background-color: red;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+        }
+
+        .clear {
+            clear: left; /*left, right, both, none*/
+        }
+
     </style>
 </head>
 
 <body>
 
-    <div class="conteudo">
-        Conteúdo 1
+    <div class="principal">
+
+        <div class="conteudo">
+            Conteúdo 1
+        </div>
+
+        <div class="conteudo">
+            Conteúdo 2
+        </div>
+
+        <div class="conteudo">
+            Conteúdo 3
+        </div>
+
+        <p class="clear">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nesciunt nostrum illo quia magnam tempora deleniti earum voluptates quos. Minus ipsam in facere quam cum natus porro error eos consequatur?
+        Repellat exercitationem eius est officia pariatur officiis. Reprehenderit illum quas facere quos possimus, aperiam, optio eos, porro temporibus nostrum qui! Dignissimos vel, facilis laudantium eveniet tempore eos unde neque. Velit.
+        Voluptatum, reiciendis ipsam quam sint iusto illum. Dolorum culpa accusamus, voluptas, ea magnam libero tenetur excepturi maiores eius voluptatibus ab. Vel numquam distinctio quis itaque ducimus sit magnam, aliquam quisquam!
+        Nihil, quasi expedita delectus debitis dolorem eveniet dignissimos voluptatum facere nam magnam eaque cum distinctio? Accusamus iusto, architecto exercitationem sunt blanditiis, quisquam modi obcaecati est neque minima porro? Vitae, ipsa.</p>
+
+        <!-- <div class="clear"></div> -->
     </div>
 
-    <div class="conteudo">
-        Conteúdo 2
-    </div>
-
-    <div class="conteudo">
-        Conteúdo 3
-    </div>
     
 </body>
 
