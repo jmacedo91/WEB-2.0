@@ -1,0 +1,54 @@
+/* Modelo de Caixa */
+
+/*.conteudo {
+    border: 1px solid red;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding: 30px 20px 10px 0px;
+    padding: 20px;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin: 30px 20px 10px 0px;
+    margin: 30px;
+    width: 150px;
+}
+
+.conteudo2 {
+    border: 1px solid red;
+    padding: 20px;
+    margin: 50px;
+    width: 150px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.noticia {
+    padding: 10px;
+    border: 0.1rem solid black;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+h2 {
+    color: red;
+    margin: 1rem 0;
+    font-size: 3rem;
+}
