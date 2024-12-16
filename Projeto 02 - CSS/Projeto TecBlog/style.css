@@ -28,20 +28,70 @@ body {
     padding: 1rem;
 }
 
+#area-principal {
+    width: 92rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.area-postagens {
+    width: 66rem;
+    float: left;
+}
+
+.area-lateral {
+    width: 24rem;
+    float: right;
+}
+
+.postagem {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+
+.conteudo-lateral {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.postagem-lateral {
+    font-size: 1.28rem;
+    padding: 0.5rem;
+    border-bottom: 0.1rem solid #565656;
+}
+
+.rodape {
+    clear: both;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #CCC;
+}
+
 /*
 **** Formatação do menu ****
 */
 
 a {
     text-decoration: none;
-    padding: 0.8rem 1.2rem;
 }
 
 a:link, a:visited {
-    color: #FFF;
+    color: #f7b600;
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #FFF;
+    padding: 0.8rem 1.2rem;
+    text-decoration: none;
+}
+
+#area-cabecalho a:hover {
     color: #f7b600;
     background: #FFF;
 }
@@ -56,6 +106,25 @@ h1 {
     font-size: 4rem;
 }
 
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background-color: #CCC;
+    padding: 0.5rem;
+}
+
 .branco {
     color: white;
 }
+
+.data-postagem {
+    font-size: 1.28rem;
+    border-bottom: 0.1rem solid #f4f4f4;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
