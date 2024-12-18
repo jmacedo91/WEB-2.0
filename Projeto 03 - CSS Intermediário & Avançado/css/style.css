@@ -1,4 +1,5 @@
-/* Seletor Universal */
+/* Seletores CSS - Aula 01 */
+/* Seletor Universal -*/
 /* * {
     border: 1px solid red;
 } */
@@ -40,7 +41,28 @@ p.verde {
 } */
 
 /* Seletor de irmão geral */
-h1~p {
+/* h1~p {
     color: red;
     font-size: 2rem;
-}
+} */
+
+
+/* ----------------------------------------------------------- */
+/* Herança e Especificidade - Aula 02 */
+/* Por padrão, border e background não são herdados do body*/
+/* body {
+    color: red;
+    border: 1px solid blue;
+} */
+
+/* A especificidade é calculada usando a seguinte fórmula, dividida em quatro partes:
+
+A (IDs): Cada ID tem uma alta especificidade.
+B (classes, pseudo-classes): Classes e pseudo-classes têm especificidade intermediária.
+C (elementos, pseudo-elementos): Seletores de elementos e pseudo-elementos têm a especificidade mais baixa.
+Exemplo de cálculo de especificidade:
+ID: #menu (especificidade = 100)
+Classe: .item (especificidade = 10)
+Elemento: div (especificidade = 1) */
+
+
