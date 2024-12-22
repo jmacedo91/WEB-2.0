@@ -65,4 +65,30 @@ ID: #menu (especificidade = 100)
 Classe: .item (especificidade = 10)
 Elemento: div (especificidade = 1) */
 
+/* Usar !important com cautela */
+/* p {
+    color: red !important;
+}
+
+p {
+    color: blue;
+} */
+
+/* Se um seletor for mas específico que outro a regra mais específica será aplicada */
+h2 {
+    color: blue;
+}
+
+* {
+    color: red;
+}
+
+h2#amarelo {
+    color: yellow;
+}
+
+h2.verde {
+    color: green;
+}
+
 
